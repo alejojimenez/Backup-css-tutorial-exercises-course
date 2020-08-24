@@ -9,7 +9,18 @@ body {
 	color: blue;
 }
 
-ul li,
+ul li {
+	color: red;
+}
+
 ol li {
 	color: green;
+}
+
+.fondo {
+	background-color: green;
+}
+
+#impar tr:nth-child(even) {
+	background-color: yellow;
 }
